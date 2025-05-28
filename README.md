@@ -2,7 +2,7 @@
 
 ### 📄 Descrição
 
-Projeto CRUD desenvolvido em Java utilizando JSP, Servlet e conexão com banco de dados MySQL.  
+Projeto CRUD desenvolvido em Java utilizando **JSP, JDBC e conexão com banco de dados MySQL**.  
 Projeto acadêmico para a disciplina **Desenvolvimento Web**.
 
 Este sistema permite realizar as operações básicas de Create, Read, Update e Delete sobre dados de clientes, com interface web e conexão ao banco MySQL.
@@ -22,11 +22,12 @@ Este sistema permite realizar as operações básicas de Create, Read, Update e 
 ### 🛠️ Tecnologias
 
 - Java 24 (JDK 24)  
-- JSP e Servlet  
+- JSP (JavaServer Pages)  
+- JDBC (Java Database Connectivity)  
 - MySQL  
 - Apache Tomcat 10.1.41  
 - WAMP Server 3.3.7 (MySQL + Apache)  
-- NetBeans IDE  
+- NetBeans IDE
 
 ---
 
@@ -34,7 +35,7 @@ Este sistema permite realizar as operações básicas de Create, Read, Update e 
 
 ```
 CRUD/
-├── src/ ← Código fonte Java (DAO, Conexão, Servlets, etc.)
+├── src/ ← Código fonte Java (DAO, Conexão)
 ├── web/ ← Arquivos JSP, WEB-INF, arquivos estáticos
 ├── nbproject/ ← Configurações do NetBeans (opcional)
 ├── build.xml ← Script de build NetBeans
